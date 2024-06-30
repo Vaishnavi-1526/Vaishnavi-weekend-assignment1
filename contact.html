@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>Contact Us</title>
+        <link rel = "stylesheet" href = "style1.css">
+    </head>
+    <body style = "background-color:  #0ab0d9">
+        <div class = "verticalAlignParent">
+                <nav class = "navigationBar">
+                    <img src = "hp1.jpg" alt = "logo" class = "imageDim Horizontal"
+                    width="70px"
+                    height="60px">
+                    The Legend
+                    <a href = "contact.html" target ="_self" id = "contact" font-size="50px">Contact Us</a>
+                </nav>
+        </div>
+    <hr>
+    <br /><br /><br />
+    <div class = "text3">
+        <hr>
+        <br>
+        Here you will know everything about John Wick.<br>
+        Reach out to us and we'll respond as soon as we can.<br><br>
+        email : johnwick@gmail.com<br>
+        web : www.johnwick.com<br>
+        <br>
+        <hr>
+    </div>
+    <br />
+    <h2 style = "color : rgb(248, 243, 246)">Form :- </h2>
+    <form action = "javascript:submitform()" onSubmit = "return validate()">
+        <label for = "name" class = "text4">Name : </label>
+        <input type = "text" name = "name" id = "name" class = "text4" style = "background-color: #efe4e4" required><br /><br />
+        <label for = "email" class = "text4">Email : </label>
+        <input type="text" name = "email" id = "email" class = "text4" style = "background-color: #efe4e4" required><br /><br />
+        <label for = "genre" class = "text4">Favourite Movie : </label>
+        <input list = "genre" class = "text4" style = "background-color: #efe4e4" required> <br /><br />
+        <datalist id = "genre">
+            <option value = "John Wick"></option>
+            <option value = "John Wick:Chapter 2"></option>
+            <option value = "John Wick:Chapter 3"></option>
+            <option value = "John Wick:Chapter 4"></option>
+        </datalist>
+        <br />
+        <input type = "checkbox" name = "checkbox" id = "checkbox" class = "text4">
+        <label for = "checkbox" class = "text4">Subscribe to our daily Newsletter via Email</label>
+        <br /><br />
+        <input type = "submit" name = "submit" value = "Submit" style = "background-color: #f3eff7; color : rgb(151, 11, 11); font-size:25px"><br /><br />
+        </form>
+        <script>
+            function validate()
+            {
+                return true;
+            }
+            function submitform()
+            {
+                window.alert("Form submitted");
+            }
+        </script>
+        <hr>
+        <p class="footer">All rights reserved</p>
+    </body>
+</html>
