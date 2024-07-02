@@ -1,12 +1,12 @@
 .verticalAlignParent
 {
-    font-size: 60px;
+    font-size: 60 px;
     color : rgb(243, 233, 233);
 }
 .imageDim
 {
-    height: 60px;
-    width: 100px;
+    height: 60 px;
+    width: 100 px;
 }
 .verticalAlignTextBottom
 {
@@ -26,38 +26,40 @@
 }
 .navigationBar a:hover
 {
-    background-color: #290472;
+    background-color: #7a061f;
     color : white;
 }
 .navigationBar a.active
 {
-    background-color: #290472;
+    background-color: #7a061f;
     color : white;
 }
 .backgroundText
 {
-    padding-top: 150px;;
+    font-style:italic;
+    font-weight: bold;
+    padding-top: 150 px;
     text-align : center;
-    color : rgb(7, 7, 7) ;
+    color :  rgb(191, 255, 63);
     font-size : 60px;
-    text-decoration-color: antiquewhite;
+    text-shadow: 2 px 2 px 3 px rgb (61, 24, 24), 2 px 2 px 3 px rgb (169, 98, 98), 2 px 2 px  3 px rgb (100, 56, 56);
 }
 .background
 {
     width : 100%;
-    height : 300px;
+    height : 500px;
     background-color : white;
     background-image : url("img\ 5.avif");
     background-position : center;
     background-size : cover;
     background-repeat : no-repeat;
-    opacity : 80%;
+    opacity : 90%;
 }
 .border
 {
     border-width : 5px;
     border-color: white;
-    border-style: double;
+    border-style: none;
 }
 .text
 {
@@ -68,14 +70,14 @@
 }
 .verticalAlignParent1
 {
-    text-decoration: underline rgb(18, 18, 18) 2px;
-    font-size: 30px;
+    text-decoration: underline  rgb (18, 18, 18) 2 px;
+    font-size: 30 px;
     color : rgb(27, 26, 26);
 }
 .verticalAlignParent2
 {
-    text-decoration: underline rgb(16, 16, 16) 2px;
-    font-size: 30px;
+    text-decoration: underline rgb (16, 16, 16) 2 px;
+    font-size: 30 px;
     color : rgb(11, 11, 11);
     text-indent : 10px;
 }
@@ -86,7 +88,7 @@
     line-height: 20px;
     white-space : pre-line;
     word-spacing : 8px;
-    text-align: center;
+    text-align: left;
 }
 .image1
 {
@@ -107,7 +109,7 @@
     line-height: 20px;
     white-space : pre-line;
     word-spacing : 8px;
-    text-align: center;
+    text-align: left;
 }
 .footer
 {
@@ -131,3 +133,7 @@
     font-size : 20px;
     text-align :left;
 }
+    
+    
+
+
