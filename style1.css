@@ -64,7 +64,7 @@
 .text
 {
     text-align : center;
-    color : rgb (12, 12, 12);
+    color : rgb(12, 12, 12);
     font-size : 50px;
     text-decoration: underline double 3px;
 }
@@ -83,7 +83,7 @@
 }
 .text1
 {
-    color : rgb (13,13,13);
+    color : rgb(13,13,13);
     font-size : 20px;
     line-height: 20px;
     white-space : pre-line;
@@ -105,7 +105,7 @@
 }
 .text2
 {
-    color : rgb (13, 13, 13);
+    color : rgb(13, 13, 13);
     font-size : 20px;
     line-height: 20px;
     white-space : pre-line;
